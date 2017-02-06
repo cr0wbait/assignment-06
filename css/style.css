@@ -12,6 +12,14 @@ body {
   font-size:0;
 }
 
+footer {
+  background-color: #fff;
+  opacity: .75;
+  display: block;
+  width: 100%;
+  margin: 20px;
+}
+
 .imgstack {
   width: 100%;
   margin: 0;
@@ -21,22 +29,45 @@ body {
   max-height: auto;
   max-width: 200px;
   margin: 1%;
+  float: left;
 }
 
 .header {
   font-size: small;
   color: #444;
-  display: block;
+  display: inline-block;
   width: 100%;
 }
 
-.header p {
+.ops {
   text-align: right;
-  vertical-align: top;
+  vertical-align: middle;
   display: block;
+  float: right;
+  padding: 15px;
 }
 
+.menu {
+  font-weight: bolder;
+}
+
+.topRo {
+  background-color: #ddd;
+  color: #fff;
+}
+
+.search {
+  outline: none;
+
+}
+
+
 @media screen and (min-width: 600px) {
+
+  header {
+    display: block;
+  }
+
   .imgstack img{
     width:50%;
     display: inline;
